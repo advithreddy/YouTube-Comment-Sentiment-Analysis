@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Result</title>
+</head>
+<body>
+    <h1>Analysis Result for Video ID: {{ video_id }}</h1>
+    <b><p>Positive Comments: {{ positive }}%</p>
+    <p>Neutral Comments: {{ neutral }}%</p>
+    <p>Negative Comments: {{ negative }}%</p>
+    <center><img src="{{ chart_path }}" alt="Sentiment Analysis Pie Chart" width="500" height="400"></center></b>
+</body>
+</html>
